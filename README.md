@@ -16,7 +16,7 @@ Create a new repository ([GitHub](https://docs.github.com/en/repositories/creati
 ```
 git clone https://github.com/BU-CS428/template-cpp.git new-project-name
 cd new-project-name
-
+git submodule update --init --recursive
 git remote rm origin
 git remote add origin https://github.com/BU-CS428/new-project-name
 git push --set-upstream origin main
