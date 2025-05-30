@@ -8,6 +8,20 @@ This is a template for C++ code bases uses for Computer Networks (CS 528).
 git submodule update --init --recursive
 ```
 
+## Using Template-C++ For a New Project
+
+Create a new repository ([GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories), [GitLab](https://docs.gitlab.com/user/project/repository/))
+
+### Setting up a new GitHub project
+```
+git clone https://github.com/BU-CS428/template-cpp.git new-project-name
+cd new-project-name
+
+git remote rm origin
+git remote add origin https://github.com/BU-CS428/new-project-name
+git push --set-upstream origin main
+```
+
 ## VSCode Extensions
 * Clang Format (with auto format on save turned on)
 * C/C++
