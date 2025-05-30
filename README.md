@@ -23,7 +23,6 @@ git push --set-upstream origin main
 ```
 
 ## VSCode Extensions
-* Clang Format (with auto format on save turned on)
 * C/C++
 * C/C++ Extensions Pack
 * CMake Tools
