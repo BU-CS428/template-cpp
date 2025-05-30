@@ -22,6 +22,6 @@
 
 int main(void) {
 
-  std::cout << "Hello, World!" << std::endl;
+  SPDLOG_INFO("Hello, Hello!");
   return EXIT_SUCCESS;
 }
